@@ -1,0 +1,114 @@
+.footer {
+  width: 100%;
+  float: left;
+  background-color: #f5f5f5;
+}
+.footerTopContainer {
+  padding: 40px !important;
+  border-bottom: 1px solid #dedede;
+  margin-bottom: 20px;
+  width: 100%;
+  color: #909090;
+  float: left;
+}
+.topFooter1 {
+  width: 100%;
+  max-width: 50%;
+
+  float: left;
+}
+.topFooter1 h4 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  text-transform: capitalize;
+  padding: 0;
+  margin: 0;
+}
+.topFooter1 span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  padding-top: 5px;
+}
+.topFooter2 {
+  width: 100%;
+  max-width: 50%;
+
+  float: left;
+}
+.topFooter2 h4 {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.topFooter2 .wrapper {
+  width: 100%;
+  display: inline-block;
+}
+.topFooter2 .wrapper button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  background-color: #00acec;
+  color: #ffffff;
+  border: none;
+  font-size: 13px;
+  border-radius: 5px;
+}
+.topFooter2 .wrapper input {
+  height: 25px;
+  width: 50%;
+  border: 1px solid #dedede;
+  border-radius: 3px;
+  padding-left: 10px;
+  border: none;
+  background-color: #e3e3e3;
+}
+
+.footerBottomContainer {
+  width: 100%;
+  float: left;
+  color: #909090;
+}
+.footerBottomContainer .bottomFooter1 {
+  width: 40%;
+  float: left;
+}
+.footerBottomContainer .bottomFooter2 {
+  width: 60%;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottomFooter1 ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.bottomFooter1 ul li {
+  padding: 2px 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+.bottomFooter2 ul {
+  list-style-type: none;
+  padding: 0;
+  width: auto;
+  float: right;
+}
+.bottomFooter2 ul li {
+  display: inline-block;
+  padding-left: 30px;
+
+  font-size: 10px;
+}
+.bottomFooter2 span {
+  font-size: 10px;
+  text-align: right;
+  float: right;
+}
+.content .container h3 {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}

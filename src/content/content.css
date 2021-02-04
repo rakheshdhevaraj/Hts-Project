@@ -1,0 +1,280 @@
+.content {
+  width: 100%;
+  float: left;
+  padding-top: 30px;
+  margin-bottom: 60px;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  width: 100%;
+  margin: 0 auto;
+}
+.filterBox {
+  width: 285px;
+  font-size: 15px;
+  float: left;
+
+  padding-bottom: 10px;
+}
+.productContainer {
+  width: calc(100% - 320px);
+  padding-left: 22.5px;
+  float: left;
+}
+.filterBox .heading {
+  width: calc(100% - 70px);
+  background-color: green;
+  float: left;
+
+  color: #ffffff;
+  padding: 15px 35px;
+  margin: 0 0 10px 0 !important;
+}
+.filterBox .heading h4 {
+  padding: 0;
+  margin: 0 !important;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.filterBox .filterList,
+.filterBox .filterCheckBox {
+  padding-top: 10px;
+  padding-left: 35px;
+
+  padding-bottom: 10px;
+}
+.filterList ul,
+.filterCheckBox ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #dedede;
+  padding-bottom: 10px;
+}
+.filterList ul li,
+.filterCheckBox ul li {
+  padding: 3px 0;
+}
+
+.filterCheckBox ul li input {
+  margin-right: 5px;
+}
+
+.productCard {
+  max-width: 250px;
+  float: left;
+  margin: 12.5px;
+  height: 397px;
+  box-shadow: 0 0 5px #ccc;
+}
+
+.productCard .imgBox {
+  position: relative;
+  padding: 15px;
+  text-align: center;
+}
+.productCard .detailBox {
+  padding: 0 25px;
+  margin-bottom: 5px;
+}
+.productCard .detailBox h4 {
+  margin-bottom: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 15px;
+  color: "#333";
+  line-height: 20px;
+  overflow: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+.productCard .detailBox a {
+  color: green;
+  margin-bottom: 10px;
+  width: 100%;
+  float: left;
+  font-size: 13px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.productCard .imgBox span {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  background-color: #00acec;
+  color: #ffffff;
+  padding: 5px 10px;
+  padding-top: 3px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+.productCard .imgBox img {
+  width: 80%;
+  margin: 0 auto;
+  height: auto;
+}
+.productCard .detailBox .price .oldPrice {
+  text-align: left;
+  position: relative;
+  float: left;
+
+  font-weight: 600;
+  color: #909090;
+  font-size: 15px;
+}
+
+.productCard .detailBox .price .oldPrice::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: red;
+  position: absolute;
+  bottom: 45%;
+  left: 0;
+}
+.productCard .detailBox .price .newPrice {
+  text-align: right;
+  float: right;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: -10px;
+}
+.productCard .detailBox .price .newPrice sup {
+  font-size: 12px;
+}
+.productCard .detailBox .price {
+  width: 100%;
+  float: left;
+  font-weight: bold;
+}
+.productCard .detailBox .cartButton,
+.productCard .detailBox .outofstock,
+.productCard .detailBox .qtyBox {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+.productCard .detailBox .qtyBox {
+  margin-top: 10px;
+}
+.productCard .detailBox .qtyBox button {
+  border: none;
+  padding: 5px 10px;
+  color: #909090;
+  background-color: #f5f5f5;
+}
+.productCard .detailBox .qtyBox input {
+  width: 20%;
+  border-radius: 4px;
+  padding: 5px 5px;
+  margin: 5px;
+  text-align: center;
+  border: 1px solid #dedede;
+}
+.productCard .detailBox .cartButton button {
+  background-color: #00c853;
+  border: none;
+  font-size: 13px;
+  color: #ffffff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-top: 7px;
+}
+.productCard .detailBox .outofstock button {
+  background-color: #e9e7e2;
+  border: none;
+  color: #909090;
+  font-size: 13px;
+
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-top: 55px;
+}
+.ads {
+  background-color: #aedb02;
+  max-width: 405px;
+  height: 340px;
+  float: left;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+.ads .detailBox {
+  padding: 0 25px;
+  color: #333;
+}
+.ads .detailBox h4 {
+  font-size: 20px;
+  color: #00acec;
+  font-weight: 600;
+  margin: 0;
+  padding-top: 40px;
+}
+.ads .detailBox .description {
+  padding: 0;
+  display: block;
+  margin-bottom: 4px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.ads .detailBox .price {
+  padding: 0;
+  display: block;
+  font-weight: 700;
+
+  font-size: 24px;
+}
+.ads .detailBox .strike {
+  text-decoration: line-through;
+  text-decoration-color: red;
+  display: block;
+}
+.ads .detailBox .ordertype {
+  color: #ff9153;
+  font-size: 10px;
+  display: block;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.ads .detailBox .highlight {
+  font-weight: 600;
+  font-size: 14px;
+}
+.trend {
+  background-color: #e9e7e2;
+  max-width: 710px;
+  min-height: 340px;
+  max-height: 340px;
+  min-width: 710px;
+  float: left;
+  position: relative;
+}
+.trend .graph {
+  width: 600px;
+  margin: auto;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-color: #ffffff;
+  border: 1px solid #333;
+}
+.trend span {
+  position: absolute;
+  bottom: 15px;
+  right: 50px;
+  font-size: 20px;
+}
+.content .container h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  color: #909090;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
